@@ -1,9 +1,15 @@
 * {
   font-family: Lucida Sans, Liberation Sans, Helvetica, Arial, sans;
-  background-color: #000000; }
+  background-color: #ffffdf; }
+
+#head {
+  background-color: #0f0f1f;
+  color: #ffffdf; }
 
 #stuff {
-  background-color: #0f2f2f;
-  color: #ffffdf;
+  background-color: #fff;
+  color: #0f0f1f;
   margin-left: 5%;
-  margin-right: 5%; }
+  margin-right: 5%;
+  border: 1px;
+  border-color: #0f0f1f; }
