@@ -1,83 +1,17 @@
-
 * {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 10pt;
-}
+  font-family: Lucida Sans, Liberation Sans, Helvetica, Arial, sans;
+  background-color: #ffffdf; }
 
-body {
-	margin-bottom: 1em;
-}
+#head {
+  background-color: #0f0f1f;
+  color: #ffffdf; }
+  #head h1 {
+    display: inline; }
 
-h2 {
-	font-size: 14pt;
-	border-bottom: 1px solid #c99;
-	margin-bottom: 1em;
-}
-
-h3, h4 {
-	color: #BB0010;
-	margin-top: 2em;
-	margin-bottom: 1em;
-}
-
-h3 {
-	
-	font-size: 12pt;
-}
-
-a {
-	color: #BB0010;
-}
-
-a:visited {
-	color: #661010;
-}
-
-a:hover {
-	color: #FF2020;
-}
-
-ul {
-	list-style-type: square;
-	margin-left: 2em;
-}
-
-/*
-ul li {
-	background: #ffffff url('red_arrow.gif') no-repeat 0px center;
-	padding-left: 15px;
-}
-*/
-
-ol {
-	margin-left: 2em;
-}
-
-.caption {
-	font-weight: bold;
-	border-left: 1px solid #BB0010;
-	padding-left: 1em;
-	margin-left: 4em;
-}
-
-pre, img, .sidenote {
-/*	background-color: #ecece0; */
-	border-left: 1px solid #BB0010;
-	border-bottom: 1px solid #BB0010;
-	padding: 1em 2em 1em 2em;
-	margin-top: 0px;
-	margin-left: 4em;
-	margin-right: 4em;
-	margin-bottom: 0px;
-}
-
-pre {
-	font-family: Consolas, Menlo, Monaco, Lucida Console, Courier, Courier New, monospace;
-}
-
-.sidenote {
-	background-image: url('emblem-important.png');
-	background-repeat: no-repeat;
-	background-position: 15px center;
-	padding-left: 62px;
-}
+#stuff {
+  background-color: #fff;
+  color: #0f0f1f;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 1px;
+  border-color: #0f0f1f; }
