@@ -1,4 +1,4 @@
-* {
+body {
   font-family: Lucida Sans, Liberation Sans, Helvetica, Arial, sans;
   background-color: #ffffdf; }
 
@@ -13,5 +13,4 @@
   color: #0f0f1f;
   margin-left: 5%;
   margin-right: 5%;
-  border: 1px;
-  border-color: #0f0f1f; }
+  border: 1px solid #0f0f1f; }
