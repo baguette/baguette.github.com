@@ -1,9 +1,8 @@
 body {
   font-family: Lucida Sans, Liberation Sans, Helvetica, Arial, sans;
-  background-color: #ffffdf; }
+  background-color: #99240d; }
 
 #head {
-  background-color: #0f0f1f;
   color: #ffffdf; }
   #head h1 {
     display: inline; }
@@ -13,5 +12,5 @@ body {
   color: #0f0f1f;
   margin-left: 5%;
   margin-right: 5%;
-  padding: 2em;
-  border: 1px solid #0f0f1f; }
+  padding: 1em;
+  border: 1px solid #ffffdf; }
