@@ -4,9 +4,12 @@ layout: front
 ---
 
 <h2>The periodic loaf</h2>
+I'm Cory Burgett, a senior in Computer Science at NC State University.
+This is my blog.
+
 <p><strong>Posts (most recent first)</strong></p>
 {% for i in site.posts %}
 	{{i.date | date: '%Y %B %d'}}
-	<span style='font-size: 12pt'><a href="{{i.url}}">{{i.title}}</a></span>
+	<span style="font-size: 12pt"><a href="{{i.url}}">{{i.title}}</a></span>
 	<br />
 {% endfor %}
