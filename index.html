@@ -5,5 +5,5 @@ layout: front
 
 <h2>The periodic loaf</h2>
 {% for i in site.posts %}
-	<span style='font-size: 14pt'>({{i.date | date '%Y-%m-%d'}})</span> <a href="{{i.url}}">{{i.title}}</a><br/>
+	<span style='font-size: 14pt'>({{i.date | date: '%Y-%m-%d'}})</span> <a href="{{i.url}}">{{i.title}}</a><br/>
 {% endfor %}
