@@ -84,3 +84,8 @@ pre {
 	width: 100%;
 	min-width: 50em
 }
+
+#content {
+	position: absolute;
+	top: 25px
+}
