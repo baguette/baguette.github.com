@@ -1,17 +1,86 @@
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10pt
+}
+
 body {
-  font-family: Lucida Sans, Liberation Sans, Helvetica, Arial, sans;
-  background-color: #99240d; }
+	margin-bottom: 1em
+}
 
-#head {
-  color: #ffffdf; }
-  #head h1 {
-    display: inline; }
+h2 {
+	font-size: 14pt;
+	border-bottom: 1px solid #a00;
+	margin-bottom: 1em
+}
 
-#stuff {
-  background-color: #fff;
-  color: #0f0f1f;
-  margin-top: 1em;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 1em;
-  border: 1px solid #ffffdf; }
+h3, h4 {
+	color: #a00;
+	margin-top: 2em;
+	margin-bottom: 1em
+}
+
+h3 {
+	font-size: 12pt
+}
+
+a {
+	color: #a00
+}
+
+a:visited {
+	color: #a00
+}
+
+a:hover {
+	color: #d33
+}
+
+ul {
+	list-style-type: square;
+	margin-left: 2em
+}
+
+ol {
+	margin-left: 2em
+}
+
+.caption {
+	font-weight: bold;
+	border-left: 1px solid #a00;
+	padding-left: 1em;
+	margin-left: 4em
+}
+
+pre, img, .sidenote {
+/*	background-color: #ecece0; */
+	border-left: 1px solid #a00;
+	border-bottom: 1px solid #a00;
+	padding: 1em 2em 1em 2em;
+	margin-top: 0px;
+	margin-left: 4em;
+	margin-right: 4em;
+	margin-bottom: 0px
+}
+
+pre {
+	font-family: Consolas, Menlo, Monaco, Lucida Console, Courier, Courier New, monospace
+}
+
+.sidenote {
+	background-image: url('emblem-important.png');
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	padding-left: 62px
+}
+
+#topBar {
+	background-color: #000;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	clear: both;
+	height: 25px;
+	width: 100%;
+	min-width: 50em
+}
