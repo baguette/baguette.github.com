@@ -4,5 +4,6 @@ layout: front
 ---
 
 <h2>The periodic loaf</h2>
-Soon, this will be a blog. Apparently, after years of working with it, I still
-suck at CSS.
+{% for i in site.posts %}
+	{{i.date}} <a href="{{i.url}}">{{i.title}}</a><br/>
+{% endfor %}
