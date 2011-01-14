@@ -4,7 +4,9 @@ layout: front
 ---
 
 <h2>The periodic loaf</h2>
-<p>Posts (most recent first)</p>
+<p><strong>Posts (most recent first)</strong></p>
 {% for i in site.posts %}
-	<span style='font-size: 9pt'>{{i.date | date: '%Y %B %d'}}</span> <a href="{{i.url}}">{{i.title}}</a><br/>
+	{{i.date | date: '%Y %B %d'}}
+	<span style='font-size: 12pt'><a href="{{i.url}}">{{i.title}}</a></span>
+	<br />
 {% endfor %}
