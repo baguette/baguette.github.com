@@ -90,14 +90,13 @@ code {
 	width: 100%;
 	padding-left: 6px;
 	padding-top: 6px;
-	padding-right: 6px;
 	min-width: 50em
 }
 
 #subtitle {
 	float: right;
 	position: absolute;
-	right: 12px
+	right: 16px
 }
 
 #content {
