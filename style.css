@@ -18,12 +18,17 @@ h2 {
 
 h3, h4 {
 	color: #a00;
+}
+
+h3 {
+	font-size: 12pt;
 	margin-top: 2em;
 	margin-bottom: 1em
 }
 
-h3 {
-	font-size: 12pt
+h4 {
+	margin-bottom: 2em;
+	margin-top: 0px
 }
 
 a {
