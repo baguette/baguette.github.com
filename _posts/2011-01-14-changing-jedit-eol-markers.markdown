@@ -5,7 +5,7 @@ layout: post
 
 ## {{post.title}}
 
-~[jEdit with modified EOL markers](../../../images/jedit.png "jEdit")
+![jEdit with modified EOL markers](../../../images/jedit.png "jEdit")
 
 jEdit is a great text editor. It has all the features you'd expect from a
 modern text editor and, being written in Java, it's highly portable. One
@@ -75,7 +75,7 @@ information. That's easy enough: I just changed the `00 01` to `00 02`. Then, to
 replace the period, I changed the `2E` to `C2`, and inserted the `AC` directly
 afterwards. My final constant is `01 00 02 C2 AC`.
 
-~[GHex showing TextAreaPainter$PaintText.class](../../../images/ghex.png "GHex")
+![GHex showing TextAreaPainter$PaintText.class](../../../images/ghex.png "GHex")
 
 After saving the class file, I zipped the directory back into a JAR, opened
 jEdit, and, lo and behold, my EOL markers had changed!
