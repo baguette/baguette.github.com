@@ -9,7 +9,7 @@ This is my blog.
 
 <p><strong>Posts (most recent first)</strong></p>
 {% for i in site.posts %}
-	{{i.date | date: '%Y %B %d'}}
+	{{i.date | date: '%d %B %Y'}}
 	<span style="font-size: 12pt"><a href="{{i.url}}">{{i.title}}</a></span>
 	<br />
 {% endfor %}

@@ -3,9 +3,6 @@ title: Changing the end-of-line marker in jEdit without recompiling
 layout: post
 ---
 
-## {{ post.title }}
-#### {{ post.date | date: '%d %B %Y' }}
-
 jEdit is a great text editor. It has all the features you'd expect from a
 modern text editor and, being written in Java, it's highly portable. One
 feature that I make extensive use of is the "End of line markers" which allow
