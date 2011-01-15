@@ -6,7 +6,8 @@
 
 h1 {
 	display: inline;
-	padding-left: 6px
+	padding-left: 6px;
+	margin-bottom: 0.5em
 }
 
 h1 a {
