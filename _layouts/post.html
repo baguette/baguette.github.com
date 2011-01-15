@@ -13,13 +13,13 @@
 			<span id="subtitle"><em>A periodic loaf of baguette.</em></span>
 		</div>
 		<div id="content">
-			<h2>{{ title }}</h2>
-			<h4>{{ date | date: '%d %B %Y' }}</h4>
+			<h2>{{ post.title }}</h2>
+			<h4>{{ post.date | date: '%d %B %Y' }}</h4>
 			{{ content }}
 		</div>
 		<div id="footer">
 			By Cory Burgett
-			<span id="subtitle"><em>{{ date | date: '%d %B %Y' }}</em></span>
+			<span id="subtitle"><em>{{ post.date | date: '%d %B %Y' }}</em></span>
 		</div>
 	</body>
 </html>

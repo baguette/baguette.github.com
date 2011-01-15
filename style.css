@@ -89,7 +89,8 @@ code {
 	height: 25px;
 	width: 100%;
 	padding-left: 6px;
-	padding-top: 2px;
+	padding-top: 6px;
+	padding-right: 6px;
 	min-width: 50em
 }
 
@@ -99,7 +100,8 @@ code {
 
 #content {
 	position: absolute;
-	margin-left: 6em;
+	margin-left: 5%;
+	width: 90%;
 	top: 25px
 }
 
