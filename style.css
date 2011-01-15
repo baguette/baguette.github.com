@@ -1,7 +1,9 @@
 
 * {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 10pt
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px
 }
 
 h1 {
@@ -93,10 +95,6 @@ code {
 #topBar {
 	background-color: #000;
 	color: #fff;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	clear: both;
 	height: 25px;
 	width: 100%;
 	padding-top: 6px;
@@ -104,20 +102,15 @@ code {
 }
 
 #subtitle {
-	position: absolute;
-	top: 0px;
-	right: 0px;
+	float: right;
 	padding-right: 6px;
-	padding-top: 6px
 }
 
 #content {
-	position: absolute;
 	margin-left: 10%;
 	width: 80%;
-	margin-top: 2em;
-	margin-bottom: 25px;
-	top: 25px
+	margin-top: 50px;
+	margin-bottom: 25px
 }
 
 .center {
