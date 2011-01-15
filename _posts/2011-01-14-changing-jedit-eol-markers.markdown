@@ -33,9 +33,9 @@ A `class` file is a binary file with a particular
 structure that includes, among other things, the constant pool and the
 bytecode itself. The constant pool consists of an array of any literal data
 that appeared in the source code. Each constant in the pool is prefixed with
-one byte representing the type (1 for strings). For strings, the type is
-followed by 2 bytes that represent the number of bytes in the string, and then
-the string bytes encoded as (slightly modified) UTF-8.
+one byte representing the type. For strings, the type is `01`
+followed by 2 bytes that represent the number of bytes in the string (high order
+byte first), and then the string bytes encoded as (slightly modified) UTF-8.
 
 Browsing through the jEdit JavaDocs, I noticed that
 `org.gjt.sp.jedit.textarea.TextAreaPainter` has some methods pertaining to EOL
@@ -68,10 +68,10 @@ as shown by the character map:
 ![Character map](../../../images/charmap.png "Character map")
 
 Normally, adding a byte to a binary file can be disastrous. Many types of files
-contain information about the length of the file or offsets of particular
-things in the header. Class files don't, however. All offsets in the class file
+contain information about the length of the file or offsets in the header.
+Class files don't, however. All offsets in the class file
 are specified as offsets from the end the constant pool. This is good news for
-those of us who want to modify those constants!
+those of us who want to modify those constants, since it saves some work.
 
 But we can't just add the extra byte. We also have to change the length
 information. That's easy enough: I just changed the `00 01` to `00 02`. Then, to
@@ -87,3 +87,5 @@ More detailed information about Java class files can be found in
 [The Java Virtual Machine Specification, chapter 4](http://java.sun.com/docs/books/jvms/second_edition/html/ClassFile.doc.html "JVM Spec chapter 4").
 
 My modified JAR file can be downloaded [here](../../../download/jedit.jar "jedit.jar").
+It should be substituteable with the stock `jedit.jar`, the only change is
+the EOL marker as described above.
