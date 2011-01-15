@@ -3,6 +3,6 @@ title: Test
 layout: post
 ---
 
-# Test
+## Test
 Just testing.
 
