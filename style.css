@@ -96,7 +96,9 @@ code {
 #subtitle {
 	position: absolute;
 	top: 0px;
-	right: 16px
+	right: 0px;
+	padding-top: 5px;
+	padding-right: 6px;
 }
 
 #content {
