@@ -96,13 +96,14 @@ code {
 
 #subtitle {
 	float: right;
-	margin-right: 12px
+	right: -12px
 }
 
 #content {
 	margin-left: 10%;
 	width: 80%;
 	margin-top: 2em;
+	top: 25px
 }
 
 /*
