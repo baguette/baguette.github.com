@@ -6,7 +6,8 @@ layout: post
 ## {{page.title}}
 #### 14 January 2011
 
-jEdit is a great text editor. It has all the features you'd expect from a
+[jEdit](http://jedit.org/ "jEdit Homepage")
+is a great text editor. It has all the features you'd expect from a
 modern text editor and, being written in Java, it's highly portable. One
 feature that I make extensive use of is the "End of line markers" which allow
 me to easily see if there are any extraneous spaces at the ends of lines.
