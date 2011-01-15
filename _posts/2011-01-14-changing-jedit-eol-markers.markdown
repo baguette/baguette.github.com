@@ -3,7 +3,7 @@ title: Changing the end-of-line marker in jEdit without recompiling
 layout: post
 ---
 
-## {{post.title}}
+## {{ post.title }}
 
 ![jEdit with modified EOL markers](../../../images/jedit.png "jEdit")
 

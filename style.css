@@ -63,6 +63,10 @@ pre {
 	font-family: Consolas, Menlo, Monaco, Lucida Console, Courier, Courier New, monospace
 }
 
+code {
+	font-family: Consolas, Menlo, Monaco, Lucida Console, Courier, Courier New, monospace
+}
+
 .sidenote {
 	background-image: url('emblem-important.png');
 	background-repeat: no-repeat;
@@ -90,6 +94,8 @@ pre {
 
 #content {
 	position: absolute;
+	margin-left: 10em;
+	margin-right: 10em;
 	top: 25px
 }
 /*
