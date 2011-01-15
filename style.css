@@ -88,9 +88,12 @@ code {
 	clear: both;
 	height: 25px;
 	width: 100%;
-	padding-left: 6px;
-	padding-top: 6px;
 	min-width: 50em
+}
+
+h1 {
+	padding-left: 6px;
+	padding-top: 6px
 }
 
 #subtitle {
