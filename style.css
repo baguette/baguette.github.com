@@ -95,7 +95,8 @@ code {
 }
 
 #subtitle {
-	float: right
+	float: right;
+	margin-right: 12px
 }
 
 #content {
