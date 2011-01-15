@@ -9,6 +9,11 @@ h1 {
 	padding-left: 6px
 }
 
+h1 a {
+	color: #fff !important;
+	text-decoration: none;
+}
+
 h2 {
 	font-size: 14pt;
 	border-bottom: 1px solid #a00;
