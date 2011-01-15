@@ -4,8 +4,7 @@ layout: post
 ---
 
 ## {{ post.title }}
-
-![jEdit with modified EOL markers](../../../images/jedit.png "jEdit")
+#### {{ post.date | date: '%d %B %Y' }}
 
 jEdit is a great text editor. It has all the features you'd expect from a
 modern text editor and, being written in Java, it's highly portable. One
@@ -24,6 +23,8 @@ recompile the application. However, even if I had the JDK installed, I don't
 feel like waiting for jEdit to compile. The next best option (in my mind,
 anyway) is to fire up the good ol' hex editor and change the bytecode. That's
 exactly what I did.
+
+![jEdit with modified EOL markers](../../../images/jedit.png "jEdit")
 
 First, some background on JAR and class files. A JAR file is simply a ZIP file
 with a `.jar` extension. A `class` file is a binary file with a particular
