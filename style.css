@@ -94,8 +94,8 @@ code {
 }
 
 #subtitle {
-	float: right;
 	position: absolute;
+	top: 0px;
 	right: 16px
 }
 
