@@ -116,6 +116,7 @@ code {
 	margin-left: 10%;
 	width: 80%;
 	margin-top: 2em;
+	margin-bottom: 25px;
 	top: 25px
 }
 
@@ -124,7 +125,7 @@ code {
 }
 
 #footer {
-	position: relative;
+	position: absolute;
 	background-color: #000;
 	color: #fff;
 	height: 25px;
