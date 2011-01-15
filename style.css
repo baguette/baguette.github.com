@@ -6,8 +6,7 @@
 
 h1 {
 	display: inline;
-	padding-left: 6px;
-	margin-bottom: 6px
+	padding-left: 6px
 }
 
 h1 a {
@@ -19,7 +18,7 @@ h2 {
 	font-size: 14pt;
 	border-bottom: 1px solid #a00;
 	margin-top: 2em;
-	margin-bottom: 1em
+	margin-bottom: 0.4em;
 }
 
 h3, h4 {
