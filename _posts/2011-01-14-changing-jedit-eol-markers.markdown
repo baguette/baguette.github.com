@@ -48,8 +48,8 @@ the compiler will add the literal to the constant pool in the class file. This
 is particularly handy, since changing the period to another character only
 requires changing the one literal in the constant pool.
 
-First, I unzipped the jedit.jar file into a directory called jedit. I then
-navigated to `org/gjt/sp/jedit/textarea` and opened the file
+First, I unzipped the `jedit.jar` from my jEdit installation into a directory.
+I then navigated to `org/gjt/sp/jedit/textarea` and opened the file
 `TextAreaPainter$PaintText.class` with a hex editor. Since most hex editors
 (including mine) display non-printing bytes as periods, it seems like 
 locating the string in the constant pool was like finding a particular piece of
