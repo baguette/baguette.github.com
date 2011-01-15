@@ -5,7 +5,9 @@
 }
 
 h1 {
-	display: inline
+	display: inline;
+	padding-left: 6px;
+	padding-top: 6px
 }
 
 h2 {
@@ -89,11 +91,6 @@ code {
 	height: 25px;
 	width: 100%;
 	min-width: 50em
-}
-
-h1 {
-	padding-left: 6px;
-	padding-top: 6px
 }
 
 #subtitle {
