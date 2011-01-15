@@ -98,10 +98,11 @@ code {
 	top: 0px;
 	right: 0px;
 	padding-right: 6px;
-	padding-top: 5px
+	padding-top: 6px
 }
 
 #content {
+	position: absolute;
 	margin-left: 10%;
 	width: 80%;
 	margin-top: 2em;

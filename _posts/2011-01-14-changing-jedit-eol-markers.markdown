@@ -28,7 +28,8 @@ exactly what I did.
 ![jEdit with modified EOL markers](../../../images/jedit.png "jEdit")
 
 First, some background on JAR and class files. A JAR file is simply a ZIP file
-with a `.jar` extension. A `class` file is a binary file with a particular
+with a `.jar` extension, inside of which is a hierarchy of class files.
+A `class` file is a binary file with a particular
 structure that includes, among other things, the constant pool and the
 bytecode itself. The constant pool consists of an array of any literal data
 that appeared in the source code. Each constant in the pool is prefixed with
