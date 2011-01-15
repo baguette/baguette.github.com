@@ -62,7 +62,7 @@ next `2E` byte. To verify that this was part of the constant pool, I inspected
 the preceding 3 bytes: `01 00 01`, that is, this `2E` is a string (`01`) of one byte
 (`00 01`). Replacing the period with another single-byte character is easy
 enough: just overwrite the `2E` with another byte (for example, `7E` for `"~"`). But
-the character I chose, the `¬` sign, is encoded with 2 bytes in UTF-8: `C2 AC`,
+the character I chose, the &not; sign, is encoded with 2 bytes in UTF-8: `C2 AC`,
 as shown by the character map:
 
 ![Character map](../../../images/charmap.png "Character map")
