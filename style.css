@@ -121,10 +121,4 @@ code {
 	text-align: center
 }
 
-#footer { /*
-	background-color: #000;
-	color: #fff;
-	height: 25px;
-	width: 100%;
-	min-width: 50em
-*/ }
+#footer {}
