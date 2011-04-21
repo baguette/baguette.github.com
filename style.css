@@ -75,7 +75,8 @@ p {
 
 .imgtext {
 	padding-left: 1em;
-	margin-left: 4em
+	margin-left: 4em;
+	align: center
 }
 
 pre, img, blockquote, .sidenote {
