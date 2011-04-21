@@ -25,7 +25,7 @@ feel like waiting for jEdit to compile. The next best option (in my mind,
 anyway) is to fire up the good ol' hex editor and change the bytecode. That's
 exactly what I did.
 
-<div class="caption"><a href="../../../images/jedit.png)">See full size</a></div>
+<div class="caption"><a href="../../../images/jedit.png">See full size</a></div>
 ![jEdit with modified EOL markers](../../../images/jedit-sm.png "jEdit")
 
 First, some background on JAR and class files. A JAR file is simply a ZIP file
@@ -66,7 +66,7 @@ enough: just overwrite the `2E` with another byte (for example, `7E` for `"~"`).
 the character I chose, the &not; sign, is encoded with 2 bytes in UTF-8: `C2 AC`,
 as shown by the character map:
 
-<div class="caption"><a href="../../../images/charmap.png)">See full size</a></div>
+<div class="caption"><a href="../../../images/charmap.png">See full size</a></div>
 ![Character map](../../../images/charmap-sm.png "Character map")
 
 Normally, adding a byte to a binary file can be disastrous. Many types of files
@@ -80,7 +80,7 @@ information. That's easy enough: I just changed the `00 01` to `00 02`. Then, to
 replace the period, I changed the `2E` to `C2`, and inserted the `AC` directly
 afterwards. My final constant is `01 00 02 C2 AC`.
 
-<div class="caption"><a href="../../../images/ghex.png)">See full size</a></div>
+<div class="caption"><a href="../../../images/ghex.png">See full size</a></div>
 ![GHex showing TextAreaPainter$PaintText.class](../../../images/ghex-sm.png "GHex")
 
 After saving the class file, I zipped the directory back into a JAR, opened
