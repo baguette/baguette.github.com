@@ -6,6 +6,10 @@
 	padding: 0px
 }
 
+body {
+	background-color: #223030
+}
+
 h1 {
 	display: inline;
 	padding-left: 6px
@@ -13,18 +17,18 @@ h1 {
 
 h1 a {
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none
 }
 
 h2 {
 	font-size: 14pt;
-	border-bottom: 1px solid #a00;
+	border-bottom: 1px solid #223030;
 	margin-top: 2em;
-	margin-bottom: 0.4em;
+	margin-bottom: 0.4em
 }
 
 h3, h4 {
-	color: #a00;
+	color: #223030;
 }
 
 h3 {
@@ -39,15 +43,15 @@ h4 {
 }
 
 a {
-	color: #a00
+	color: #223030
 }
 
 a:visited {
-	color: #a00
+	color: #223030
 }
 
 a:hover {
-	color: #d33
+	color: #5d6a6a
 }
 
 ul {
@@ -65,20 +69,17 @@ p {
 
 .caption {
 	font-weight: bold;
-	border-left: 1px solid #a00;
+	border-left: 1px solid #c0cdcd;
 	padding-left: 1em;
 	margin-left: 4em
 }
 
-pre, img, .sidenote {
+pre, img, blockquote, .sidenote {
 /*	background-color: #ecece0; */
-	border-left: 1px solid #a00;
-	border-bottom: 1px solid #a00;
+	border-left: 1px solid #c0cdcd;
+	border-bottom: 1px solid #c0cdcd;
 	padding: 1em 2em 1em 2em;
-	margin-top: 1.4em;
-	margin-left: 4em;
-	margin-right: 4em;
-	margin-bottom: 1.4em
+	margin: 1.4em 4em 1.4em 4em
 }
 
 pre {
@@ -89,36 +90,54 @@ code {
 	font-family: Consolas, Menlo, Monaco, Lucida Console, Courier, Courier New, monospace
 }
 
+blockquote {
+	color: #5d6a6a;
+	font-style: italic;
+	background: #fff url('quotes.png') no-repeat 15px top;
+	padding-left: 62px
+	
+}
+	
 .sidenote {
-	background-image: url('emblem-important.png');
-	background-repeat: no-repeat;
-	background-position: 15px center;
+	background: #fff url('emblem-important.png') no-repeat 15px center;
 	padding-left: 62px
 }
 
 #topBar {
-	background-color: #000;
+	background-color: #223030;
 	color: #fff;
 	height: 25px;
 	width: 100%;
-	padding-top: 6px;
-	min-width: 50em
+	padding-top: 6px
 }
 
 #subtitle {
 	float: right;
-	padding-right: 6px;
+	padding-right: 6px
+}
+
+#box {
+	background-color: #fff;
+	width: 50em;
+	margin: 0px auto
 }
 
 #content {
-	margin-left: 10%;
-	width: 80%;
-	margin-top: 50px;
-	margin-bottom: 25px
+	padding: 50px 2em 25px 2em
 }
 
 .center {
 	text-align: center
 }
 
-#footer {}
+#footer {
+	background-color: #223030;
+	color: #fff;
+	height: 30px;
+	width: 100%;
+	padding-top: 6px
+}
+
+#footer a, #footer a:visited, #footer a:hover {
+	color: #fff;
+}

@@ -8,8 +8,13 @@ layout: front
 This is my blog.</p>
 
 <p><strong>Posts (most recent first)</strong></p>
+<table>
 {% for i in site.posts %}
-	{{i.date | date: '%d %B %Y'}}
-	<span style="font-size: 12pt"><a href="{{i.url}}">{{i.title}}</a></span>
-	<br />
+	<tr>
+		<td>{{i.date | date: '%d %B %Y'}}</td>
+		<td><span style="font-size: 12pt">
+			<a href="{{i.url}}">{{i.title}}</a>
+		</span></td>
+	</tr>
 {% endfor %}
+</table>
