@@ -73,6 +73,11 @@ p {
 	margin-left: 4em
 }
 
+.imgtext {
+	padding-left: 1em;
+	margin-left: 4em
+}
+
 pre, img, blockquote, .sidenote {
 	border-left: 1px solid #c0cdcd;
 	border-bottom: 1px solid #c0cdcd;
