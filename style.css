@@ -68,14 +68,12 @@ p {
 }
 
 .caption {
-	font-weight: bold;
 	border-left: 1px solid #c0cdcd;
 	padding-left: 1em;
 	margin-left: 4em
 }
 
 pre, img, blockquote, .sidenote {
-/*	background-color: #ecece0; */
 	border-left: 1px solid #c0cdcd;
 	border-bottom: 1px solid #c0cdcd;
 	padding: 1em 2em 1em 2em;
