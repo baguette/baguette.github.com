@@ -75,7 +75,7 @@ p {
 
 .imgtext {
 	text-align: center;
-	display: inline;
+	padding-top: -2em;
 	margin-bottom: 1em
 }
 
