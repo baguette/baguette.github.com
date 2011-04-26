@@ -136,6 +136,10 @@ td {
 	text-align: center
 }
 
+.right {
+	text-align: right
+}
+
 #footer {
 	background-color: #223030;
 	color: #fff;
