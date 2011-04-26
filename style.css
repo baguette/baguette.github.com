@@ -144,6 +144,10 @@ td {
 	text-align: right
 }
 
+.stretch {
+	margin: auto
+}
+
 #footer {
 	background-color: #223030;
 	color: #fff;
