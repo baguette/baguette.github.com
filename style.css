@@ -28,7 +28,7 @@ h2 {
 }
 
 h3, h4 {
-	color: #223030;
+	color: #223030
 }
 
 h3 {
@@ -125,11 +125,15 @@ blockquote {
 }
 
 td {
-	padding-right: 2em;
+	padding-right: 2em
 }
 
 #content {
-	padding: 50px 2em 25px 2em
+	padding: 4em 2em 1em 2em
+}
+
+.dsq-brlink {
+	padding: 0 0 2em
 }
 
 .center {
@@ -149,5 +153,5 @@ td {
 }
 
 #footer a, #footer a:visited, #footer a:hover {
-	color: #fff;
+	color: #fff
 }
