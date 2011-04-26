@@ -145,6 +145,7 @@ td {
 }
 
 .stretch {
+	width: 100%;
 	margin: auto
 }
 
