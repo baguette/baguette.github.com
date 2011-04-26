@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Insert Blog Here</title>
+		<title>{{ page.title }} - The Periodic Loaf</title>
 		<style type="text/css">
 			<!--
 				@import url('../../../style.css');
@@ -10,9 +10,9 @@
 	<body>
 		<div id="box">
 			<div id="topBar">
-				<h1><a href="http://baguette.github.com/">Insert Blog Here</a></h1>
+				<h1><a href="http://baguette.github.com/">The Periodic Loaf</a></h1>
 				<a name="top"></a>
-				<span id="subtitle"><em>A periodic loaf of baguette.</em></span>
+				<span id="subtitle"><em>The blog of baguette.</em></span>
 			</div>
 			<br style="clear: both" />
 			<div id="content">
@@ -41,7 +41,11 @@
 				
 			</div>
 			<div id="footer" class="center">
+				<a href="{{ page.previous.url }}">Previous</a>
 				<a href="#top">Back to top</a>
+				<a href="{{ page.next.url }}">Next</a>
+				<br />
+				<a href="/">Home</a>
 			</div>
 		</div>
 	</body>
