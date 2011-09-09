@@ -19,9 +19,10 @@ compiler.
 I decided to leave some room for more mistakes. The compiler I'm working on
 is meant to be a one-off program. The idea is to get it working as quickly
 as possible and see what kinds of compromises need to be made in order to
-compile Lemma. It's a naïve Lemma->Lua translator that does no optimizations.
-As such, the code it generates isn't the best. The goal is to be as much like
-the current Lemma language as possible and focus on Lua interop.
+compile Lemma. It's a na&iuml;ve Lemma->Lua translator that does no
+optimizations. As such, the code it generates isn't the best. The goal is to
+be as much like the current Lemma language as possible and focus on Lua
+interop.
 
 When Lemma was first conceived, I had imagined an eventual compiler that
 could generate Lua bytecode. After spending some time tinkering with the Lua
