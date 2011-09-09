@@ -6,10 +6,11 @@ layout: post
 ## {{page.title}}
 #### 2 September 2011
 
-I've been occasionally working on a Lemma compiler for the last few weeks.
-I hadn't been planning on starting work on a compiler so soon, but a few
-weeks ago I discovered a very serious bug with the Lemma interpreter: it
-ignores `nil` values altogether. I've been using Lua on and off for about
+I've been occasionally working on a [Lemma](http://github.com/baguette/lemma)
+compiler for the last few weeks. I hadn't been planning on starting work on a
+compiler so soon, but a few weeks ago I discovered a very serious bug with the
+Lemma interpreter:
+it ignores `nil` values altogether. I've been using Lua on and off for about
 seven years and should've known better. The oversight was made very early on
 in the course of developing the interpreter, and fixing it would require a
 major amount of code-rewriting. However, since the interpreter was always
